@@ -1,11 +1,26 @@
 body {
     font-family: 'Press Start 2P', cursive;
     background-color: #fdecee;
+    
 }
 
-.menu-link {
-    color: #0f2d91;
-    text-decoration: underline;
+
+/* navbar */
+.logo {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the navbar content */
+    align-items: center;
+    
+}
+
+.navbar .links {
+    display: flex;
+    gap: 20px; /* Optional: Add gap between links */
 }
 
 .active-link {
@@ -14,28 +29,109 @@ body {
     border: 2px solid #0f2d91;
     padding: 0.5rem 1rem;
 }
-
-.section-title {
-    border: 2px solid #0f2d91;
-    background-color: #ffffff;
-    padding: 0.5rem;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    top: -20px;
+.menu-link {
+    color: #0f2d91;
+    
 }
 
-.project-card {
-    background-color: #ffffff;
-    border: 2px solid #ccc;
-    border-radius: 0.5rem;
-    padding: 1rem;
+
+/* hero */
+
+.hero{
+    background-image: url(images/brick.png);
+    height: 80vh;
+    width: 85%;
+    margin: 20px 40px;
+    margin-left: 7%;
+    padding: 20px;
+    align-items: center;
     text-align: center;
 }
-
-.project-image {
+.hero-cnt{
+    background-color:#fdecee ;
+    padding: 30px 25px;
+    margin-left: 25px;
     width: 100%;
-    height: 8rem;
-    object-fit: cover;
-    margin-bottom: 1rem;
+    height: 375px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
 }
+
+.img-bg{
+    background-color:#fdecee ;
+    padding: 25px 25px;
+    margin-left: 25px;
+    height: 375px;
+    margin-right: 25px;
+    width: 100%;
+
+}
+.hero-img img{
+    height: 450px;
+    padding-bottom: 50px;
+    width: 800px;
+    z-index: 1;
+}
+
+
+
+
+
+
+/* about */
+
+.about{
+    width: 95%;
+    margin: 20px 40px;
+    height: 85vh;
+    border: black 2px solid;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.abt-img img{
+    height:350px;
+    width: 350px;
+}
+.abt-cnt {
+    display: flex;
+    justify-content: space-between;
+}
+.about-content{
+    margin-top: 32px;
+    margin-right: 25px;
+}
+
+
+/* tools */
+
+.tools{
+    width: 95%;
+    margin: 20px 40px;
+    height: 85vh;
+    border: black 2px solid;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.tools-img img{
+    height: 350px;
+    width: 750px;
+}
+
+
+/* projects */
+
+.projects{
+    width: 95%;
+    margin: 20px 40px;
+    height: 85vh;
+    border: black 2px solid;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
