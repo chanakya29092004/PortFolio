@@ -5,6 +5,7 @@ body {
 }
 
 
+
 /* navbar */
 .logo {
     width: 100px;
@@ -40,7 +41,7 @@ body {
 .hero{
     background-image: url(images/brick.png);
     height: 80vh;
-    width: 85%;
+    width: 95%;
     margin: 20px 40px;
     margin-left: 7%;
     padding: 20px;
@@ -56,6 +57,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+    padding-top: 50px;
     
 }
 
@@ -129,9 +131,34 @@ body {
     margin: 20px 40px;
     height: 85vh;
     border: black 2px solid;
-    padding: 20px;
+    padding: 25px;
     align-items: center;
     text-align: center;
 }
+.pro-box{
+    padding: 30px;
+}
 
+.project-card{
+    padding-top: 20px;
 
+    align-items: center;
+    text-align: start;
+}
+
+/* contact */
+
+.cnt-txt{
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.contact-sub{
+    align-items: center;
+    height: 300px;
+}
+.cnt-right{
+    align-items: center;
+}
+.socials{
+    justify-items: start;
+}
