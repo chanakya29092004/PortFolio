@@ -16,8 +16,15 @@ body {
     display: flex;
     justify-content: center; /* Center the navbar content */
     align-items: center;
-    
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color:#fdecee ; /* Optional: Set background color */
+    padding: 10px 20px; /* Optional: Add padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
 }
+    
+
 
 .navbar .links {
     display: flex;
@@ -32,7 +39,11 @@ body {
 }
 .menu-link {
     color: #0f2d91;
-    
+}
+.special-link {
+    background-color: #f0f0f0;
+    border: 2px solid #0f2d91;
+    padding: 10px 20px;
 }
 
 
@@ -93,6 +104,7 @@ body {
     align-items: center;
     text-align: center;
 }
+
 .abt-img img{
     height:350px;
     width: 350px;
@@ -104,6 +116,8 @@ body {
 .about-content{
     margin-top: 32px;
     margin-right: 25px;
+    
+    
 }
 
 
